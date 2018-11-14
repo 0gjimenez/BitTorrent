@@ -2,9 +2,10 @@
 function TorrentFile(){
 
 //first function
-    function numberOfPackets(kB)
-
-        return kb/50
+ function numberOfPackets(fileSize){
+    
+    return fileSize/50
+ }
 
 
 
@@ -13,13 +14,16 @@ function TorrentFile(){
 
 
 //second function
-    function buildTorrentPacketArray(numOfPackets)
-        let list = []
-        let numOfPackets;
-
-            for(let i = 20; i < numOfPackets, i++ )
-                list [i] = 
-}
+ function buildTorrentPacketArray(numOfPackets){
+     let list = []
+        
+     for(let i = 0; i < numOfPackets, i++){
+        
+        list [i] = 1;
+    }
+        return list
+ }
 
 //main test methods
-    console.log
+    console.log(numberOfPackets(1000))
+    console.log(buildTorrentPacketArray(20))
