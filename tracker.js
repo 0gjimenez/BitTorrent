@@ -5,26 +5,39 @@ function Tracker(){
   let percent = [];
 
   //implement all six functions below
-function numOfSeeds(list,value){
+function numOfSeeds(list){
 
   let found = 0
 
   for(let i = 0; i < list.length; i++){
   }
-    if(list [] === value){
+    if(list [i] !== null){
       
       found++
     }
     return found
 }
 
-function addSeeds("s"){
+function addSeeds(s){
 
-  let name = 
- 
-  list = []
+ seeds.push(s) 
 
-for(i = 0;  > i)
 }
 
+function removeSeed(s){
+ 
+function findName(name)
+ 
+  let index = 0
+ 
+  for(let i = 0, i < list.length; i++){
 
+     if(list [i] === name){;
+
+    return null;
+}
+
+function reportHealth(){
+
+  
+}
