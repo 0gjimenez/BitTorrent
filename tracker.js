@@ -10,34 +10,35 @@ function numOfSeeds(list){
   let found = 0
 
   for(let i = 0; i < list.length; i++){
-  }
     if(list [i] !== null){
-      
       found++
     }
+  }
     return found
 }
 
 function addSeeds(s){
 
- seeds.push(s) 
+ seeds.push(s) ;
 
 }
 
 function removeSeed(s){
- 
-function findName(name)
- 
-  let index = 0
- 
-  for(let i = 0, i < list.length; i++){
 
-     if(list [i] === name){;
+  for(let i = 0; i < seeds.length; i++){
 
-    return null;
+     if(seeds[i] === s){
+
+      seeds[i] = null;
+      
+      percent[i] = 0;
+    
+     }
+    }
+     
 }
 
-function reportHealth(){
-
+function reportHealth(){}
+  let average = 0
   
 }
