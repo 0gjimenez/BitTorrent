@@ -38,7 +38,15 @@ function removeSeed(s){
      
 }
 
-function reportHealth(){}
-  let average = 0
-  
+function reportHealth(list){
+  let sum = 0
+
+  count = 0
+    
+    for(let i = 0; i< percent.length; i++){
+      
+      if(percent[i] !== null);
+         
+      percent++;
+    }
 }

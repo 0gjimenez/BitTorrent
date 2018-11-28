@@ -17,7 +17,7 @@ function TorrentFile(){
  function buildTorrentPacketArray(numOfPackets){
      let list = []
         
-     for(let i = 0; i < numOfPackets, i++){
+     for(let i = 0; i < numOfPackets; i++){
         
         list [i] = 1;
     }
@@ -25,5 +25,5 @@ function TorrentFile(){
  }
 
 //main test methods
-    console.log(numberOfPackets(1000))
+    console.log(numberOfPackets(1000));
     console.log(buildTorrentPacketArray(20))
