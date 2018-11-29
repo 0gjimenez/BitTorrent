@@ -38,15 +38,30 @@ function removeSeed(s){
      
 }
 
-function reportHealth(list){
-  let sum = 0
-
-  count = 0
-    
-    for(let i = 0; i< percent.length; i++){
+function reportHealth(){
+  let sum = 0;
+  
+  let count = 0;
+   
+  for(i = 0; i<percent.length; i++){
       
-      if(percent[i] !== null);
-         
-      percent++;
+    if(percent[i] !== 0){
+        
+      sum = sum + percent[i];
+       
+      count++;
+      }
+     return sum/count;
+  }
+  function update(percent){
+    
+    for(i = 0; i < percent.length; i++){
+     
+      let r = Math.random;
+      
+      if (r > percent [i]){
+       
+        percent [i] = r;
+      }
     }
-}
+  }
